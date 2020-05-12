@@ -1,0 +1,19 @@
+.section-container {
+  max-width: 1140px;
+  @include margin-x();
+
+  @include screen-size-sm-max {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  @include screen-size-sm-min {
+    padding-right: 80px;
+    padding-left: 80px;
+  }
+
+  @include screen-size-md-min {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}

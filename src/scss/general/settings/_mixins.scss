@@ -1,0 +1,69 @@
+@mixin screen-size-sm-max() {
+  @media (max-width: #{$screen-size-sm-max}) {
+    @content;
+  }
+}
+
+@mixin screen-size-sm-min() {
+  @media (min-width: #{$screen-size-sm-min}) {
+    @content;
+  }
+}
+
+@mixin screen-size-md-max() {
+  @media (max-width: #{$screen-size-md-max}) {
+    @content;
+  }
+}
+
+@mixin screen-size-md-min() {
+  @media (min-width: #{$screen-size-md-min}) {
+    @content;
+  }
+}
+
+@mixin screen-size-lg-max() {
+  @media (max-width: #{$screen-size-lg-max}) {
+    @content;
+  }
+}
+
+@mixin screen-size-lg-min() {
+  @media (min-width: #{$screen-size-lg-min}) {
+    @content;
+  }
+}
+
+@mixin screen-size-xl-max() {
+  @media (max-width: #{$screen-size-xl-max}) {
+    @content;
+  }
+}
+
+@mixin screen-size-xl-min() {
+  @media (min-width: #{$screen-size-xl-min}) {
+    @content;
+  }
+}
+
+@mixin screen-size-max($screen-size-max) {
+  @media (max-width: #{$screen-size-max}) {
+    @content;
+  }
+}
+
+@mixin screen-size-min($screen-size-min) {
+  @media (min-width: #{$screen-size-min}) {
+    @content;
+  }
+}
+
+@mixin margin-x() {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@mixin margin-y() {
+  margin-top: auto;
+  margin-bottom: auto;
+}

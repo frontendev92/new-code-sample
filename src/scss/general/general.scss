@@ -1,0 +1,35 @@
+@import 'settings/variables';
+@import 'settings/mixins';
+
+@import 'font';
+@import 'fonticon';
+@import 'typo';
+@import 'btn';
+@import 'form';
+@import 'badge';
+@import 'h-line';
+@import 'section';
+@import 'section-dev-tools';
+@import 'section-carousel-logo';
+@import 'section-dev-api';
+@import 'section-sign-up-footer';
+@import 'section-footer-pattern';
+@import 'section-toolkit';
+@import 'navbar-main';
+@import 'footer-main';
+@import 'utilities';
+
+// Pages
+@import '../page/page-cellular';
+@import '../page/page-dashboard';
+@import '../page/page-home';
+@import '../page/page-iot-sim';
+@import '../page/page-nova';
+@import '../page/page-register';
+@import '../page/page-store';
+@import '../page/page-checkout';
+@import '../page/page-why';
+@import '../page/page-pricing';
+@import '../page/page-pricing-details';
+@import '../page/page-pricing-compare';
+

@@ -1,0 +1,116 @@
+.btn {
+  padding: 8px 16px;
+  font-size: $base-font-size - 2;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.1);
+
+  &.disabled { pointer-events: none; }
+
+  &-sm { padding: 6px 11px; }
+
+  &-md {
+    padding-right: 24px;
+    padding-left: 24px;
+    font-size: $base-font-size + 2;
+    border-radius: 8px;
+  }
+
+  &-lg {
+    font-size: $base-font-size + 2;
+    padding: 14px 32px;
+    border-radius: 8px;
+  }
+
+  &-content {
+    display: flex;
+    align-items: center;
+  }
+
+  .icon { font-size: $base-font-size - 5; }
+  &-text-icon .icon { margin-left: 10px; }
+
+  // Colors
+  &-outline-primary {
+    &,
+    &:hover {
+      color: #0a1435;
+      border-color: $brand-primary;
+      background-color: transparent;
+    }
+
+    .icon { color: $brand-primary; }
+  }
+
+  &-outline-primary-light {
+    &,
+    &:hover {
+      color: #091334;
+      border-color: rgba($brand-primary, .3);
+      background-color: transparent;
+    }
+  }
+
+  &-outline-secondary-light {
+    &,
+    &:hover {
+      color: #0a1435;
+      border-color: rgba($brand-secondary-light, .42);
+      background-color: transparent;
+    }
+
+    .icon { color: $brand-primary; }
+  }
+
+  &-outline-light {
+    &,
+    &:hover {
+      color: #fff;
+      border-color: #e1e1e1;
+      background-color: transparent;
+    }
+  }
+
+  &-primary {
+    &,
+    &:hover { background-color: $brand-primary; }
+
+    &.disabled {
+      border-color: transparent;
+      background-color: $brand-primary;
+    }
+  }
+
+  &-secondary {
+    &,
+    &:hover {
+      border-color: transparent;
+      background-color: $brand-secondary;
+    }
+  }
+
+  &-secondary-light {
+    &,
+    &:hover {
+      color: #fff;
+      background-color: $brand-secondary-light;
+    }
+  }
+
+  &-dark {
+    &,
+    &:hover {
+      color: #fff;
+      background-color: $brand-dark;
+    }
+  }
+
+  &-purple {
+    &,
+    &:hover {
+      color: #fff;
+      background-color: $brand-purple;
+    }
+  }
+}
+
+.btn-circle { border-radius: 40px; }

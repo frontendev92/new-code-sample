@@ -1,0 +1,211 @@
+@import '../general/settings/variables';
+@import '../general/settings/mixins';
+
+.page-checkout {
+  .navbar-main {
+    position: relative;
+    background-color: #071137;
+
+    &-container {
+      > .navbar-main-brand {
+        > .navbar-main-brand-icon {
+          background-image: none;
+          -webkit-background-clip: border-box;
+          -webkit-text-fill-color: currentcolor;
+        }
+
+        > .navbar-main-brand-icon,
+        > .navbar-main-brand-icon-text { color: #fff; }
+      }
+    }
+
+    &-nav-link,
+    &-multirow,
+    &-multirow-link {
+      &,
+      &:hover { color: #fff; }
+    }
+
+    &-content-btn {
+      .btn-outline-primary {
+        &,
+        &:hover {
+          border-color: #fff;
+          background-color: #fff;
+        }
+      }
+
+      .btn-primary {
+        &,
+        &:hover {
+          border-color: #fff;
+          background-color: transparent;
+        }
+      }
+    }
+
+    &-toggler-item { background-color: #fff; }
+  }
+
+  .section-checkout {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    .row-checkout {
+      @include screen-size-md-max { flex-direction: column-reverse; }
+    }
+
+    .col-sidebar {
+      border-left: 1px solid #e6eaec;
+      background-color: #f3f6f8;
+    }
+
+    &-form {
+      padding: 80px 40px;
+
+      @include screen-size-md-min {
+        max-width: 75%;
+        @include margin-x();
+      }
+
+      &-label {
+        font-size: $base-font-size + 2;
+        font-weight: 500;
+
+        &-info {
+          margin-left: 5px;
+          font-size: $base-font-size - 4;
+          color: rgba(63,67,74,.45);
+        }
+      }
+
+      &-group { margin-bottom: 35px; }
+
+      &-top {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        font-size: $base-font-size - 4;
+        font-weight: 500;
+        color: rgba(63,67,74,.45);
+
+        .btn {
+          margin-right: 10px;
+          color: $brand-primary;
+        }
+      }
+
+      &-heading {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-weight: 300;
+        letter-spacing: 2px;
+      }
+
+      &-subheading {
+        margin-top: 16px;
+        margin-bottom: 16px;
+        font-size: $base-font-size + 2;
+
+        a { color: $brand-primary; }
+      }
+
+      .custom-checkbox { margin-bottom: 30px; }
+
+      &-card {
+        display: flex;
+        align-items: center;
+        height: 100%;
+      }
+
+      &-terms {
+        font-size: $base-font-size + 2;
+        font-weight: 300;
+
+        a { color: $brand-primary; }
+      }
+
+      .btn-submit { margin-top: 20px; }
+    }
+
+    &-sidebar {
+      position: sticky;
+      top: 0;
+      padding: 80px 40px;
+
+      &-heading {
+        margin-bottom: 40px;
+        font-size: $base-font-size + 2;
+      }
+
+      .table {
+        th {
+          padding: 5px 2px;
+          font-size: $base-font-size - 4;
+          color: #575e67;
+          border-top: none;
+          border-bottom: none;
+
+          &:last-child { text-align: right; }
+        }
+
+        td {
+          padding: 16px 2px;
+          vertical-align: middle;
+
+          &:last-child { text-align: right; }
+        }
+
+        tbody td {
+          font-size: $base-font-size - 2;
+          border-top-color: #d4d8da;
+
+          strong {
+            display: block;
+            color: #97a2b2;
+            font-size: $base-font-size - 3;
+          }
+
+          .icon-close {
+            transform: translateX(40px);
+            cursor: pointer;
+          }
+
+          .form-control {
+            display: table;
+            width: 45px;
+            @include margin-x();
+            padding-top: 4px;
+            padding-bottom: 4px;
+            text-align: center;
+          }
+        }
+
+        tfoot td {
+          font-size: $base-font-size - 4;
+          font-weight: 600;
+          color: #97a2b2;
+          border-top-color: transparent;
+
+          &.td-total {
+            padding-top: 20px;
+            padding-bottom: 20px;
+            color: $brand-purple;
+            border-top-style: dotted;
+            border-top-color: #97a2b2;
+            border-bottom: 1px dotted #97a2b2;
+          }
+
+          small { font-size: 100%; }
+        }
+      }
+
+      &-subtable {
+        margin-bottom: 16px;
+        font-size: $base-font-size - 4;
+
+        &-light { color: #97a2b2; }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+$path-global:                   '../';
+
+$base-font-size:                16px;
+
+$screen-size-sm-max:            576px;
+$screen-size-sm-min:            $screen-size-sm-max + 1;
+$screen-size-md-max:            767px;
+$screen-size-md-min:            $screen-size-md-max + 1;
+$screen-size-lg-max:            991px;
+$screen-size-lg-min:            $screen-size-lg-max + 1;
+$screen-size-xl-max:            1199px;
+$screen-size-xl-min:            $screen-size-xl-max + 1;
+
+$brand-primary:                 #4e6cff;
+$brand-secondary:               #00a5ff;
+$brand-secondary-light:         #00bfff;
+$brand-success:                 #2dbf71;
+$brand-warning:                 #fe17c2;
+$brand-info:                    #1efecb;
+$brand-dark:                    #0a1435;
+$brand-purple:                  #7831ca;

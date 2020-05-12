@@ -1,0 +1,346 @@
+doctype html
+html lang="en"
+  head
+    meta charset="utf-8"
+    meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    link rel="stylesheet" href="../dist/css/bootstrap.min.css"
+    link rel="stylesheet" href="../dist/plugins/card/css/card.css"
+    link rel="stylesheet" href="../dist/css/general.min.css"
+    title Cellular Connectivity for the Internet of Things | Hologram
+
+    body.page-checkout
+      nav.navbar-main
+        .navbar-main-container
+
+          a.navbar-main-brand href="#"
+            i.navbar-main-brand-icon.icon.icon-logo
+            i.navbar-main-brand-icon-text.icon.icon-logo-text
+
+          .navbar-main-content
+            .navbar-main-mobile-header
+              a.navbar-main-brand href="#"
+                i.navbar-main-brand-icon.icon.icon-logo
+                i.navbar-main-brand-icon-text.icon.icon-logo-text
+
+              button(data-close-navbar-main class="navbar-main-mobile-header-btn btn" type="button")
+                i.icon.icon-close
+
+            ul.navbar-main-nav
+              li.navbar-main-nav-item
+                a.navbar-main-nav-link href="#" Cellular IoT
+              li.navbar-main-nav-item
+                a.navbar-main-nav-link href="#" Why Hologram
+              li.navbar-main-nav-item
+                a.navbar-main-nav-link href="#" Resources
+              li.navbar-main-nav-item
+                a.navbar-main-nav-link href="#" Pricing
+              li.navbar-main-nav-item
+                a.navbar-main-nav-link href="#" Store
+            .navbar-main-multirow
+              .navbar-main-multirow-item
+                i.icon.icon-phone
+                span.navbar-main-multirow-title GLOBAL SALES
+              .navbar-main-multirow-item
+                a.navbar-main-multirow-link href="tel:+18889804758" +1 888-980-4758
+
+          .navbar-main-content-btn
+            a.navbar-main-btn.btn.btn-outline-primary href="#" Shop Now
+            a.navbar-main-btn.btn.btn-primary href="#" Sign In
+
+            button(data-open-navbar-main class="btn navbar-main-toggler" type="button")
+              span.navbar-main-toggler-item
+              span.navbar-main-toggler-item
+              span.navbar-main-toggler-item
+
+      section.section-checkout
+        .row.row-checkout
+          .col-md-8
+            form.section-checkout-form
+              .section-checkout-form-top
+                a.btn.btn-sm.btn-outline-secondary-light href="#" Log in
+                | FOR FASTER CHECKOUT
+
+              .section-checkout-form-group
+                h4.section-checkout-form-heading PERSONAL INFORMATION
+                .row.form-group
+                  .col-6
+                    label.section-checkout-form-label First name
+                    input.form-control.form-control-md type="text"
+                  .col-6
+                    label.section-checkout-form-label Last name
+                    input.form-control.form-control-md type="text"
+                .row.form-group
+                  .col-6
+                    label.section-checkout-form-label Email
+                    input.form-control.form-control-md type="text"
+                  .col-6
+                    label.section-checkout-form-label Phone
+                    input.form-control.form-control-md type="text"
+
+              .section-checkout-form-group
+                h4.section-checkout-form-heading SHIPPING ADDRESS
+                .custom-control.custom-checkbox
+                  input.custom-control-input type="checkbox" id="custom-check-1"
+                  label.custom-control-label for="custom-check-1" This is a business address
+
+                .form-group
+                  label.section-checkout-form-label
+                    | Company
+                    span.section-checkout-form-label-info
+                      | (OPTIONAL)
+                  input.form-control.form-control-md type="text"
+                .form-group
+                  label.section-checkout-form-label Country
+                  select.form-control.form-control-md
+                    option Select a country
+                    option United States
+                .form-group
+                  label.section-checkout-form-label Address
+                  input.form-control.form-control-md type="text"
+                .form-group
+                  input.form-control.form-control-md type="text"
+
+                .row
+                  .col-4
+                    .form-group
+                      label.section-checkout-form-label City
+                      input.form-control.form-control-md type="text"
+                  .col-4
+                    .form-group
+                      label.section-checkout-form-label Region
+                      input.form-control.form-control-md type="text"
+                  .col-4
+                    .form-group
+                      label.section-checkout-form-label Postal code
+                      input.form-control.form-control-md type="text"
+
+                .form-group
+                  label.section-checkout-form-label
+                    | Shipping notes
+                    span.section-checkout-form-label-info
+                      | (OPTIONAL)
+                  textarea.form-control rows="4"
+
+              .section-checkout-form-group
+                h4.section-checkout-form-heading SHIPPING OPTIONS
+                .section-checkout-form-subheading
+                  | During the holiday season, delivery may require additional time than usual depending on each country's local delivery quantities.
+
+                .form-group
+                  select.form-control.form-control-md disabled="disabled"
+                    option Pending shipping address
+
+
+              .section-checkout-form-group
+                h4.section-checkout-form-heading PAYMENT INFORMATION
+
+                .row
+                  .col-xl-5
+                    .form-group
+                      label.section-checkout-form-label Credit card number
+                      input.form-control.form-control-md type="text" name="number" placeholder="●●●● ●●●● ●●●● ●●●●"
+                    .form-group
+                      label.section-checkout-form-label Name on card
+                      input.form-control.form-control-md type="text" name="name" placeholder="Full Name"
+
+                    .row
+                      .col-7
+                        .form-group
+                          label.section-checkout-form-label MM
+                          input.form-control.form-control-md type="text" name="expiry" placeholder="MM / YY"
+                      .col-5
+                        .form-group
+                          label.section-checkout-form-label CVC
+                          input.form-control.form-control-md type="text" name="cvc" placeholder="●●●●"
+                  .col-xl-6.offset-xl-1
+                    .section-checkout-form-card
+
+              .section-checkout-form-group
+                h4.section-checkout-form-heading BILLING ADDRESS
+                .custom-control.custom-checkbox
+                  input.custom-control-input type="checkbox" id="custom-check-2"
+                  label.custom-control-label for="custom-check-2" Billing address is same as shipping address
+
+                .form-group
+                  label.section-checkout-form-label
+                    | Company
+                    span.section-checkout-form-label-info
+                      | (OPTIONAL)
+                  input.form-control.form-control-md type="text"
+                .form-group
+                  label.section-checkout-form-label Country
+                  select.form-control.form-control-md
+                    option Select a country
+                    option United States
+                .form-group
+                  label.section-checkout-form-label Address
+                  input.form-control.form-control-md type="text"
+                .form-group
+                  input.form-control.form-control-md type="text"
+
+                .row
+                  .col-4
+                    .form-group
+                      label.section-checkout-form-label City
+                      input.form-control.form-control-md type="text"
+                  .col-4
+                    .form-group
+                      label.section-checkout-form-label State
+                      select.form-control.form-control-md
+                        option Select a state
+                        option Alabama
+                  .col-4
+                    .form-group
+                      label.section-checkout-form-label ZIP code
+                      input.form-control.form-control-md type="text"
+
+                .form-group
+                  label.section-checkout-form-label
+                    | Notes for Invoice
+                    span.section-checkout-form-label-info
+                      | (OPTIONAL)
+                  textarea.form-control.form-control-md rows="4" placeholder="Additional company info needed for invoice such as Tax ID, VAT ID, etc"
+
+              .section-checkout-form-group
+                h4.section-checkout-form-heading APPLY PROMO CODE
+                .section-checkout-form-subheading
+                  a href="#" Log in
+                  |  to apply a promo code.
+
+
+              .section-checkout-form-group
+                .section-checkout-form-terms
+                  | By placing an order, you agree to Hologram's
+                  a href="#"  Terms of Use
+                  |  and
+                  a href="#"  Privacy Policy.
+
+                button.btn.btn-lg.btn-primary.btn-submit type="submit" Place Order
+
+          .col-md-4.col-sidebar
+            .section-checkout-sidebar
+              h3.section-checkout-sidebar-heading Order Summary
+
+              table.table
+                thead
+                  tr
+                    th PRODUCT
+                    th PRICE
+                    th.text-center QTY
+                    th TOTAL
+                tbody
+                  tr
+                    td
+                      span Global IoT SIM Card
+                      strong Combo Mini/Micro/Nano SIM
+                    td $5.00
+                    td
+                      input.form-control type="text" value="1"
+                    td
+                      | $5.00
+                      i.icon-close.fa-icon.fal.fa-times
+                tfoot
+                  tr
+                    td colspan="2" SUBTOTAL
+                    td colspan="2"
+                      small.font-weight-bold $5.00
+                  tr
+                    td colspan="2" SHIPPING
+                    td colspan="2"
+                      small
+                        | (pending)
+                  tr
+                    td colspan="2" ESTIMATED TAX
+                    td colspan="2"
+                      small
+                        | (pending)
+                  tr
+                    td.td-total colspan="2" GRAND TOTAL
+                    td.td-total colspan="2"
+                      small.font-weight-bold $5.00
+
+              .section-checkout-sidebar-subtable
+                | Orders with any pre-order items will ship together when inventory is available. For any items that require immediate shipment, please create a separate order.
+              .section-checkout-sidebar-subtable.section-checkout-sidebar-subtable-light
+                | For orders outside of the US, there may be extra import taxes or duties for the customer to pay upon delivery.
+
+
+      footer.footer-main
+        .footer-main-top
+          .section-container
+            .footer-main-top-row
+              .footer-main-top-col.footer-main-top-col-logo
+                i.icon.icon-logo
+              .footer-main-top-col
+                .footer-main-top-nav-title GET CONNECTED
+                .footer-main-top-nav
+                  a.footer-main-top-nav-link href="#" Cellular Data
+                  a.footer-main-top-nav-link href="#" Dashboard
+                  a.footer-main-top-nav-link href="#" IoT SIM Card
+                  a.footer-main-top-nav-link href="#" Hologram Nova
+                  a.footer-main-top-nav-link href="#" See Supported Hardware
+
+
+
+              .footer-main-top-col
+                .footer-main-top-nav-title RESOURCES
+                .footer-main-top-nav
+                  a.footer-main-top-nav-link href="#" Using Hologram
+                  a.footer-main-top-nav-link href="#" Coverage Map
+                  a.footer-main-top-nav-link href="#" Help Center
+                  a.footer-main-top-nav-link href="#" Support
+
+              .footer-main-top-col
+                .footer-main-top-nav-title PRICING
+                .footer-main-top-nav
+                  a.footer-main-top-nav-link href="#" Professional
+                  a.footer-main-top-nav-link href="#" Maker
+                  a.footer-main-top-nav-link href="#" Compare Editions
+              .footer-main-top-col
+                .footer-main-top-nav-title DEVELOPERS
+                .footer-main-top-nav
+                  a.footer-main-top-nav-link href="#" Docs
+                  a.footer-main-top-nav-link href="#" Community
+                  a.footer-main-top-nav-link href="#" Projects
+                  a.footer-main-top-nav-link href="#" Open Source
+              .footer-main-top-col
+                .footer-main-top-nav-title COMPANY
+                .footer-main-top-nav
+                  a.footer-main-top-nav-link href="#" About us
+                  a.footer-main-top-nav-link href="#" Blog
+                  a.footer-main-top-nav-link href="#" Partnerships
+                  a.footer-main-top-nav-link href="#" Careers
+                  a.footer-main-top-nav-link href="#" Sitemap
+
+            .footer-main-top-row.footer-main-top-row-social
+              .footer-main-top-col
+                .footer-main-top-nav-title FOLLOW US
+                .footer-main-top-nav.footer-main-top-nav-inline
+                  a.footer-main-top-nav-link.footer-main-top-nav-link-social href="#"
+                    i.icon.icon-logo-facebook
+                  a.footer-main-top-nav-link.footer-main-top-nav-link-social href="#"
+                    i.icon.icon-logo-twitter
+                  a.footer-main-top-nav-link.footer-main-top-nav-link-social href="#"
+                    i.icon.icon-logo-linkedin
+                  a.footer-main-top-nav-link.footer-main-top-nav-link-social href="#"
+                    i.icon.icon-logo-github
+        .footer-main-bottom
+          .section-container
+            .footer-main-bottom-row
+              .footer-main-bottom-col
+                small.footer-main-bottom-copyright &copy; 2019 Hologram
+                .footer-main-bottom-nav
+                  a.footer-main-bottom-nav-link href="#" Terms
+                  a.footer-main-bottom-nav-link href="#" Privacy
+              .footer-main-bottom-col
+                .footer-main-bottom-nav
+                  a.footer-main-bottom-nav-link href="#" System status
+
+
+    script src="../dist/js/jquery.min.js"
+    script src="../dist/js/bootstrap.bundle.min.js"
+    script src="https://kit.fontawesome.com/ec0ec8ed47.js" crossorigin="anonymous"
+    script src="../dist/plugins/card/js/jquery.card.js"
+    script src="../dist/js/general.min.js"
+    script src="js/page.min.js"
+

@@ -1,0 +1,24 @@
+.section-sign-up-footer {
+  padding-top: 65px;
+  padding-bottom: 65px;
+  font-size: $base-font-size + 7;
+  font-weight: 300;
+  background-color: #EBE7F2;
+
+  &-pattern {
+    color: #fff;
+    background-image: url('../img/pattern-blue.png');
+    background-size: cover;
+  }
+
+  &-subheading {
+    font-size: $base-font-size + 12;
+    font-weight: 300;
+  }
+
+  .btn {
+    margin-top: 15px;
+
+    @include screen-size-md-max { width: 100%; }
+  }
+}

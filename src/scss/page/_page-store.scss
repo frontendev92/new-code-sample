@@ -1,0 +1,204 @@
+@import '../general/settings/variables';
+@import '../general/settings/mixins';
+
+.page-store {
+  .navbar-main {
+    position: relative;
+    background-color: #071137;
+
+    &-container {
+      > .navbar-main-brand {
+        > .navbar-main-brand-icon {
+          background-image: none;
+          -webkit-background-clip: border-box;
+          -webkit-text-fill-color: currentcolor;
+        }
+
+        > .navbar-main-brand-icon,
+        > .navbar-main-brand-icon-text { color: #fff; }
+      }
+    }
+
+    &-nav-link,
+    &-multirow,
+    &-multirow-link {
+      &,
+      &:hover { color: #fff; }
+    }
+
+    &-content-btn {
+      .btn-outline-primary {
+        &,
+        &:hover {
+          border-color: #fff;
+          background-color: #fff;
+        }
+      }
+
+      .btn-primary {
+        &,
+        &:hover {
+          border-color: #fff;
+          background-color: transparent;
+        }
+      }
+    }
+
+    &-toggler-item { background-color: #fff; }
+  }
+
+  .section-cart {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #F3F6F8;
+
+    .section-container {
+      @include screen-size-md-min {
+        padding-right: 55px;
+        padding-left: 55px;
+      }
+    }
+
+    &-box {
+      margin-bottom: 30px;
+      border-radius: 4px;
+      background-color: #fff;
+      box-shadow: 0 2px 2px 0 rgba(0,0,0,.06);
+
+      @include screen-size-md-max { padding: 50px; }
+      @include screen-size-md-min { padding: 90px 30px; }
+
+      &-sm {
+        @include screen-size-md-min {
+          padding-top: 30px;
+          padding-bottom: 30px;
+        }
+      }
+    }
+
+    .tab-content-img {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      transform: translateY(50px);
+    }
+
+    &-img-link { display: block; }
+
+    &-img {
+      max-width: 100%;
+
+      @include screen-size-md-max { margin-bottom: 50px; }
+
+      &-sm {
+        display: table;
+        max-width: 350px;
+        @include margin-x();
+      }
+    }
+
+    &-heading {
+      font-size: $base-font-size + 15;
+      color: $brand-primary;
+
+      a { color: inherit; }
+    }
+
+    &-price {
+      margin-top: 3px;
+      font-size: $base-font-size + 7;
+      color: #213955;
+    }
+
+    &-subheading {
+      line-height: 21px;
+      font-size: $base-font-size + 2;
+      font-weight: 300;
+
+      a {
+        color: $brand-primary;
+
+        a { color: inherit; }
+      }
+    }
+
+    &-link {
+      display: inline-flex;
+      align-items: center;
+      margin-top: 20px;
+      font-size: $base-font-size - 2;
+
+      &:hover {
+        color: $brand-secondary;
+      }
+
+      .fa-icon { margin-right: 5px; }
+    }
+
+    &-hr {
+      margin-top: 20px;
+      margin-bottom: 20px;
+      border-top: 1px dashed #c9c9c9;
+    }
+
+    &-title {
+      margin-bottom: 5px;
+      font-size: $base-font-size - 4;
+      color: #8699b2;
+    }
+
+    .nav {
+      display: inline-flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+
+      &-link {
+        display: inline-block;
+        margin-bottom: 4px;
+        padding: 6px 8px 4px;
+        font-size: $base-font-size - 5;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: .86px;
+        color: #c7c7c7;
+        border-radius: 4px;
+        border: 1px solid #c7c7c7;
+        transition: .3s;
+
+        &.active {
+          color: #35405d;
+          border-color: $brand-secondary;
+          background-color: #e0f4ff;
+        }
+      }
+    }
+
+    .form-control { text-align: center; }
+
+    &-option {
+      font-size: $base-font-size + 2;
+      font-weight: 300;
+    }
+
+    &-help {
+      font-size: $base-font-size + 5;
+      font-weight: 300;
+
+      @include screen-size-lg-max { text-align: center; }
+
+      @include screen-size-lg-min {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        height: 100%;
+      }
+    }
+
+    .btn-sale {
+      @include screen-size-lg-max {
+        display: table;
+        @include margin-x();
+      }
+    }
+  }
+}

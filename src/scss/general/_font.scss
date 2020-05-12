@@ -1,0 +1,338 @@
+$fontPath: '#{$path-global}font/din/';
+
+@font-face {
+  font-family: DIN Next LT Pro;
+  font-weight: 300;
+  src:  url('#{$fontPath}din-300.eot') format("eot"),
+        url('#{$fontPath}din-300.woff2') format("woff2"),
+        url('#{$fontPath}din-300.woff') format("woff"),
+        url('#{$fontPath}din-300.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: DIN Next LT Pro;
+  font-weight: 400;
+  src:  url('#{$fontPath}din-400.eot') format("eot"),
+        url('#{$fontPath}din-400.woff2') format("woff2"),
+        url('#{$fontPath}din-400.woff') format("woff"),
+        url('#{$fontPath}din-400.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: DIN Next LT Pro;
+  font-weight: 500;
+  src:  url('#{$fontPath}din-500.eot') format("eot"),
+        url('#{$fontPath}din-500.woff2') format("woff2"),
+        url('#{$fontPath}din-500.woff') format("woff"),
+        url('#{$fontPath}din-500.ttf') format("truetype")
+}
+
+@font-face {
+  font-family: DIN Next LT Pro;
+  font-weight: 700;
+  src:  url('#{$fontPath}din-700.eot') format("eot"),
+        url('#{$fontPath}din-700.woff2') format("woff2"),
+        url('#{$fontPath}din-700.woff') format("woff"),
+        url('#{$fontPath}din-700.ttf') format("truetype")
+}
+
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-BlackCondensed.eot');
+//  src: local('DIN Next LT Pro Black Condensed'), local('DINNextLTPro-BlackCondensed'),
+//  url('#{$fontPath}DINNextLTPro-BlackCondensed.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-BlackCondensed.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-BlackCondensed.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-BlackCondensed.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Regular.eot');
+//  src: local('DIN Next LT Pro Regular'), local('DINNextLTPro-Regular'),
+//  url('#{$fontPath}DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Regular.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Regular.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Regular.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Medium.eot');
+//  src: local('DIN Next LT Pro Medium'), local('DINNextLTPro-Medium'),
+//  url('#{$fontPath}DINNextLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Medium.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Medium.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Medium.ttf') format('truetype');
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-BoldItalic.eot');
+//  src: local('DIN Next LT Pro Bold Italic'), local('DINNextLTPro-BoldItalic'),
+//  url('#{$fontPath}DINNextLTPro-BoldItalic.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-BoldItalic.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-BoldItalic.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-BoldItalic.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-UltraLightCond.eot');
+//  src: local('DIN Next LT Pro UltraLight Condensed'), local('DINNextLTPro-UltraLightCond'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightCond.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightCond.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightCond.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightCond.ttf') format('truetype');
+//  font-weight: 200;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro Condensed';
+//  src: url('#{$fontPath}DINNextLTPro-BoldCondensed.eot');
+//  src: local('DIN Next LT Pro Bold Condensed'), local('DINNextLTPro-BoldCondensed'),
+//  url('#{$fontPath}DINNextLTPro-BoldCondensed.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-BoldCondensed.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-BoldCondensed.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-BoldCondensed.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next Rounded LT Pro';
+//  src: url('#{$fontPath}DINNextRoundedLTPro-Light.eot');
+//  src: local('DIN Next Rounded LT Pro Light'), local('DINNextRoundedLTPro-Light'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Light.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Light.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Light.woff') format('woff'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Light.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-UltraLightIt.eot');
+//  src: local('DIN Next LT Pro UltraLight Italic'), local('DINNextLTPro-UltraLightIt'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightIt.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightIt.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightIt.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-UltraLightIt.ttf') format('truetype');
+//  font-weight: 200;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-UltraLight.eot');
+//  src: local('DIN Next LT Pro UltraLight'), local('DINNextLTPro-UltraLight'),
+//  url('#{$fontPath}DINNextLTPro-UltraLight.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-UltraLight.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-UltraLight.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-UltraLight.ttf') format('truetype');
+//  font-weight: 200;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Condensed.eot');
+//  src: local('DIN Next LT Pro Condensed'), local('DINNextLTPro-Condensed'),
+//  url('#{$fontPath}DINNextLTPro-Condensed.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Condensed.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Condensed.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Condensed.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Italic.eot');
+//  src: local('DIN Next LT Pro Italic'), local('DINNextLTPro-Italic'),
+//  url('#{$fontPath}DINNextLTPro-Italic.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Italic.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Italic.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Italic.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next Rounded LT Pro';
+//  src: url('#{$fontPath}DINNextRoundedLTPro-Medium.eot');
+//  src: local('DIN Next Rounded LT Pro Medium'), local('DINNextRoundedLTPro-Medium'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Medium.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Medium.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Medium.woff') format('woff'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Medium.ttf') format('truetype');
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Heavy.eot');
+//  src: local('DIN Next LT Pro Heavy'), local('DINNextLTPro-Heavy'),
+//  url('#{$fontPath}DINNextLTPro-Heavy.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Heavy.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Heavy.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Heavy.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-HeavyItalic.eot');
+//  src: local('DIN Next LT Pro Heavy Italic'), local('DINNextLTPro-HeavyItalic'),
+//  url('#{$fontPath}DINNextLTPro-HeavyItalic.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-HeavyItalic.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-HeavyItalic.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-HeavyItalic.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Bold.eot');
+//  src: local('DIN Next LT Pro Bold'), local('DINNextLTPro-Bold'),
+//  url('#{$fontPath}DINNextLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Bold.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Bold.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Bold.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next Rounded LT Pro';
+//  src: url('#{$fontPath}DINNextRoundedLTPro-Regular.eot');
+//  src: local('DIN Next Rounded LT Pro Regular'), local('DINNextRoundedLTPro-Regular'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Regular.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Regular.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Regular.woff') format('woff'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Regular.ttf') format('truetype');
+//  font-weight: normal;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Light.eot');
+//  src: local('DIN Next LT Pro Light'), local('DINNextLTPro-Light'),
+//  url('#{$fontPath}DINNextLTPro-Light.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Light.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Light.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Light.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next Rounded LT Pro';
+//  src: url('#{$fontPath}DINNextRoundedLTPro-Bold.eot');
+//  src: local('DIN Next Rounded LT Pro Bold'), local('DINNextRoundedLTPro-Bold'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Bold.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Bold.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Bold.woff') format('woff'),
+//  url('#{$fontPath}DINNextRoundedLTPro-Bold.ttf') format('truetype');
+//  font-weight: bold;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro Medium Cond';
+//  src: url('#{$fontPath}DINNextLTPro-HeavyCondensed.eot');
+//  src: local('DIN Next LT Pro Heavy Condensed'), local('DINNextLTPro-HeavyCondensed'),
+//  url('#{$fontPath}DINNextLTPro-HeavyCondensed.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-HeavyCondensed.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-HeavyCondensed.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-HeavyCondensed.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-LightItalic.eot');
+//  src: local('DIN Next LT Pro Light Italic'), local('DINNextLTPro-LightItalic'),
+//  url('#{$fontPath}DINNextLTPro-LightItalic.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-LightItalic.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-LightItalic.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-LightItalic.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-LightCondensed.eot');
+//  src: local('DIN Next LT Pro Light Condensed'), local('DINNextLTPro-LightCondensed'),
+//  url('#{$fontPath}DINNextLTPro-LightCondensed.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-LightCondensed.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-LightCondensed.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-LightCondensed.ttf') format('truetype');
+//  font-weight: 300;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-MediumItalic.eot');
+//  src: local('DIN Next LT Pro Medium Italic'), local('DINNextLTPro-MediumItalic'),
+//  url('#{$fontPath}DINNextLTPro-MediumItalic.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-MediumItalic.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-MediumItalic.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-MediumItalic.ttf') format('truetype');
+//  font-weight: 500;
+//  font-style: italic;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-Black.eot');
+//  src: local('DIN Next LT Pro Black'), local('DINNextLTPro-Black'),
+//  url('#{$fontPath}DINNextLTPro-Black.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-Black.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-Black.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-Black.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-MediumCond.eot');
+//  src: local('DIN Next LT Pro Medium Condensed'), local('DINNextLTPro-MediumCond'),
+//  url('#{$fontPath}DINNextLTPro-MediumCond.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-MediumCond.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-MediumCond.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-MediumCond.ttf') format('truetype');
+//  font-weight: 500;
+//  font-style: normal;
+//}
+//
+//@font-face {
+//  font-family: 'DIN Next LT Pro';
+//  src: url('#{$fontPath}DINNextLTPro-BlackItalic.eot');
+//  src: local('DIN Next LT Pro Black Italic'), local('DINNextLTPro-BlackItalic'),
+//  url('#{$fontPath}DINNextLTPro-BlackItalic.eot?#iefix') format('embedded-opentype'),
+//  url('#{$fontPath}DINNextLTPro-BlackItalic.woff2') format('woff2'),
+//  url('#{$fontPath}DINNextLTPro-BlackItalic.woff') format('woff'),
+//  url('#{$fontPath}DINNextLTPro-BlackItalic.ttf') format('truetype');
+//  font-weight: 900;
+//  font-style: italic;
+//}
+
